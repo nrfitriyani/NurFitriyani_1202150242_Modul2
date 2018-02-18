@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NUR FITRIYANI_1202150242_MODUL2</string>
+    <string name="nothing_selected">onNothingSelected:</string>
+    <string-array name="NomorMeja">
+        <item>Meja 01</item>
+        <item>Meja 02</item>
+        <item>Meja 03</item>
+        <item>Meja 04</item>
+        <item>Meja 05</item>
+    </string-array>
+</resources>

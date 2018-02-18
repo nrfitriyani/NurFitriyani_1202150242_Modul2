@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nurfitriyani.example.com.nurfitriyani_1202150242_modul2.DineIn">
+
+    <TextView
+        android:id="@+id/detailcust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="Detail Customer"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <EditText
+        android:id="@+id/namapemesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailcust"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Name"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/nomormeja"
+        android:layout_width="69dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/namapemesan"
+        android:layout_below="@+id/namapemesan"
+        android:layout_marginTop="27dp"
+        android:text="No. Meja"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <Button
+        android:id="@+id/pilihpesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nomormeja"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@+id/nomormeja"
+        android:text="Pilih Pesanan" />
+
+    <Spinner
+        android:id="@+id/mejaberapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pilihpesanan"
+        android:layout_alignEnd="@+id/pilihpesanan" />
+</RelativeLayout>
